@@ -1,0 +1,22 @@
+// Use this file to define style overrides for @edx/paragon
+// This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+
+header.learning-header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: $primary;
+    color: $white;
+
+    .text-gray-700 {
+        color: $white !important;
+    }
+
+    .btn-outline-primary {
+        color: $white;
+        border-color: $white;
+
+        &:hover {
+            color: $primary;
+        }
+    }
+}
